@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --active-state-color: rgb(10, 55, 255);
+}
+
+body {
+  margin: 60px auto;
+  padding-top: 70px;
+}
+
+.heading {
+  font-size: 98px !important;
+}
+
+.sub-heading {
+  font-size: 48px !important;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link,
+.btn-yoga,
+.btn-yogurt,
+.btn-weather {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 1px solid var(--primary-color);
+}
+
+.contact-link:hover {
+  color: var(--active-state-color);
+}
+.btn-yoga:hover {
+  color: var(--active-state-color);
+}
+.btn-yogurt:hover {
+  color: var(--active-state-color);
+}
+.btn-weather:hover {
+  color: var(--active-state-color);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+  color: var(--active-state-color);
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: var(--active-state-color);
+}
+
+.btn-link {
+  color: var(--secondary-color);
+  text-decoration: none !important;
+}
